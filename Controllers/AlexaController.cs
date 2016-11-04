@@ -14,7 +14,7 @@ namespace AlexaSkill.Controllers
 			  	response = new  {
     				outputSpeech = new {
       					type = "SSML",
-						text = "Hello World from Steve <phoneme alphabet=\"ipa\" ph=\"bar' gelt\">Bargelt</phoneme>"
+						SSML = "Hello World from Steve <phoneme alphabet=\"ipa\" ph=\"bar' gelt\">Bargelt</phoneme>"
 						},
 					card = new {
       					type = "Simple",
