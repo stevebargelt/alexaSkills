@@ -13,8 +13,8 @@ namespace AlexaSkill.Controllers
   				sessionAttributes = new  { },
 			  	response = new  {
     				outputSpeech = new {
-      					type = "SSML",
-						SSML = "Hello World from Steve <phoneme alphabet=\"ipa\" ph=\"bar' gelt\">Bargelt</phoneme>"
+      					type = "text",
+						text = "Happy Birthday Eve, Maggie"
 						},
 					card = new {
       					type = "Simple",
