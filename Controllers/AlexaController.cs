@@ -13,7 +13,7 @@ namespace AlexaSkill.Controllers
   				sessionAttributes = new  { },
 			  	response = new  {
     				outputSpeech = new {
-      					type = "text",
+      					type = "PlainText",
 						text = "Happy Birthday Eve, Maggie"
 						},
 					card = new {
