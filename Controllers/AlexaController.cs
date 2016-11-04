@@ -14,7 +14,7 @@ namespace AlexaSkill.Controllers
 			  	response = new  {
     				outputSpeech = new {
       					type = "PlainText",
-						text = "Happy Birthday Eve, Maggie"
+						text = "Welcome home for the weekend, Zoe"
 						},
 					card = new {
       					type = "Simple",
